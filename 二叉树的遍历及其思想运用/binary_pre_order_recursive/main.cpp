@@ -18,6 +18,6 @@ auto main() -> int {
         )
     );
 
-    hbutds::binary_tree_pre_order_recur(&binary_tree);
+    hbutds::binary_tree_pre_order_recursive(&binary_tree);
     return 0; // 输出 R A C D B E F
 }
