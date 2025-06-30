@@ -5,7 +5,7 @@ using hbutds::vector;
 using hbutds::BinaryTreeNode;
 
 auto main() -> int {
-    vector<double> data {7, 5, 2, 4};
+    vector<double> data {7.0, 5.0, 2.0, 4.0};
 
     auto tree {hbutds::make_huffman_tree(data)};
 
