@@ -1,8 +1,6 @@
 #include <iostream>
-#include "binary_tree.h" //hbutds::binary_tree_pre_order_recur所在头文件
-
+#include "binary_tree.h" //hbutds::binary_tree_pre_order_recursive所在头文件
 using hbutds::BinaryTreeNode;
-
 auto main() -> int {
     BinaryTreeNode<char> binary_tree(
         'R',
