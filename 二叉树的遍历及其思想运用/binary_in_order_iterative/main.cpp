@@ -15,7 +15,6 @@ auto main() -> int {
             new BinaryTreeNode<char>('F')
         )
     );
-
     hbutds::binary_tree_in_order_iterative(&binary_tree);
     return 0; // 输出 C A D R E B F
 }
