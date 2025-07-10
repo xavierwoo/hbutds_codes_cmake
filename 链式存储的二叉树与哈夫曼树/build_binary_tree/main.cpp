@@ -4,15 +4,12 @@
 using hbutds::BinaryTreeNode;
 
 auto main() -> int {
-    BinaryTreeNode<char> binary_tree(
-        'A',
-        new BinaryTreeNode<char>(
-            'B',
+    BinaryTreeNode<char> binary_tree('A',
+        new BinaryTreeNode<char>('B',
             new BinaryTreeNode<char>('D'),
             nullptr
         ),
-        new BinaryTreeNode<char>(
-            'C',
+        new BinaryTreeNode<char>('C',
             new BinaryTreeNode<char>('E'),
             new BinaryTreeNode<char>('F')
         )

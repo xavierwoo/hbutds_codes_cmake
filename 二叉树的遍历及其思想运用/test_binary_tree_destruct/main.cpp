@@ -9,8 +9,7 @@ struct A{
     ~A(){cout<<format("{} was destructed.\n", data);}
 };
 auto main() -> int {
-    BinaryTreeNode<A> binary_tree(
-        A('R'),
+    BinaryTreeNode<A> binary_tree(A('R'),
         new BinaryTreeNode<A>(A('A')),
         new BinaryTreeNode<A>(A('B'))
     );
