@@ -1,5 +1,5 @@
 #include <iostream>
-#include "algorithm.h" // hbutds::EightQueenSolver所在头文件
+#include "tree.h" // hbutds::EightQueenSolver所在头文件
 auto main() -> int {
     hbutds::EightQueenSolver solver;
     solver.solve();
