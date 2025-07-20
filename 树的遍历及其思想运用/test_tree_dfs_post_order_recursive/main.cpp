@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tree.h" //hbutds::tree_dfs_pre_order_recursive所在头文件
+#include "tree.h" // hbutds::tree_dfs_post_order_recursive所在头文件
 using hbutds::TreeNode;
 auto main() -> int {
     TreeNode<char> tree('A', {
@@ -12,6 +12,6 @@ auto main() -> int {
             TreeNode<char>('G')
         })
     });
-    hbutds::tree_dfs_pre_order_recursive(tree);
-    return 0; // 输出 A B E F C D G
+    hbutds::tree_dfs_post_order_recursive(tree);
+    return 0; // 输出 E F B C G D A
 }
