@@ -1,4 +1,3 @@
-#include <iostream>
 #include "binary_tree.h" //hbutds::binary_tree_pre_order_iterative所在头文件
 using hbutds::BinaryTreeNode;
 auto main() -> int {

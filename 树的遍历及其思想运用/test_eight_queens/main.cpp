@@ -1,4 +1,3 @@
-#include <iostream>
 #include "tree.h" // hbutds::EightQueenSolver所在头文件
 auto main() -> int {
     hbutds::EightQueenSolver solver;

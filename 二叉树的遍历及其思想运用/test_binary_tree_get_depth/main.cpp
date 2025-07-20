@@ -1,9 +1,7 @@
 #include <iostream>
-#include <format>
 #include "binary_tree.h" 
 using hbutds::BinaryTreeNode;
-using std::cout, std::format;
-
+using std::cout;
 auto main() -> int {
     BinaryTreeNode<char> binary_tree('R',
         new BinaryTreeNode<char>('A'),
