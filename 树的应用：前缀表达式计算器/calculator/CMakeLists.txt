@@ -10,10 +10,14 @@ FetchContent_Declare(
 
     # hbut_utilities的Git仓库地址
     GIT_REPOSITORY https://github.com/xavierwoo/hbutds_utilities.git
-    GIT_TAG v1.0.1 # 使用特定的版本
+    GIT_TAG v0.39.0 # 使用特定的版本
 )
 FetchContent_MakeAvailable(hbutds_utilities)
 
-add_executable(test main.cpp)
+add_executable(calc 
+    main.cpp
+    calculator.h
+    calculator.cpp
+)
 
-target_link_libraries(test hbutds_utilities)
+target_link_libraries(calc hbutds_utilities)
