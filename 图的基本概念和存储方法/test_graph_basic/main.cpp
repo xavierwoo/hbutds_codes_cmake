@@ -10,6 +10,9 @@ auto main() -> int {
     graph.add_edge('a', 'b', 3);
     graph.add_edge('a', 'c', 2);
     graph.add_edge('b', 'c', 1);
+   
+    cout<<format("Vertices:{}, Edges:{}\n", 
+            graph.vertex_size(), graph.edge_size());
     
     cout<<format("Cost of edge <a, b>: {}\n", 
             graph.get_edge_cost('a', 'b')); //输出3
