@@ -9,13 +9,8 @@ auto main() -> int {
     graph.add_vertex('c');
     graph.add_edge('a', 'b', 2);
     graph.add_edge('a', 'c', 1);
-
-    cout<<format("Cost of edge <a, b>: {}\n", 
-            graph.get_edge_cost('a', 'b')); //输出2
-
+    cout<<format("Cost of edge <a, b>: {}\n", graph.get_edge_cost('a', 'b'));//2
     graph.remove_edge('a', 'b');
-    cout<<format("Cost of edge <a, b>: {}\n", 
-            graph.get_edge_cost('a', 'b')); //输出inf
-
+    cout<<format("Cost of edge <a, b>: {}\n", graph.get_edge_cost('a', 'b'));//inf
     return 0;
 }
