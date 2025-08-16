@@ -4,20 +4,15 @@ project(test)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_BUILD_TYPE Debug)
 
-# include(FetchContent)
-# FetchContent_Declare(
-#     hbutds_utilities
+include(FetchContent)
+FetchContent_Declare(
+    hbutds_utilities
 
-#     # hbut_utilities的Git仓库地址
-#     GIT_REPOSITORY https://github.com/xavierwoo/hbutds_utilities.git
-#     GIT_TAG v0.39.0 # 使用特定的版本
-# )
-# FetchContent_MakeAvailable(hbutds_utilities)
-
-add_subdirectory(
-    /Users/Xavier_1/Toys/data_structures/hbutds/hbutds_codes_cmake/hbutds_utilities
-    /Users/Xavier_1/Toys/data_structures/hbutds/hbutds_codes_cmake/hbutds_utilities/build
+    # hbut_utilities的Git仓库地址
+    GIT_REPOSITORY https://github.com/xavierwoo/hbutds_utilities.git
+    GIT_TAG v2.1.1 # 使用特定的版本
 )
+FetchContent_MakeAvailable(hbutds_utilities)
 
 add_executable(test main.cpp)
 
