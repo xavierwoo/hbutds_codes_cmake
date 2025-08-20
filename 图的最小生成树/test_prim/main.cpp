@@ -17,6 +17,5 @@ auto main() -> int {
             cout<<format("{} |", graph.get_vertex(father.value()));
         } else cout<<"- |";
     }
-
     return 0;
 }
