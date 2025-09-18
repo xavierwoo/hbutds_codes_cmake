@@ -1,4 +1,5 @@
 #include <iostream>
+#include <format>
 #include "array.h"
 using std::cout, std::format;
 auto main() -> int {

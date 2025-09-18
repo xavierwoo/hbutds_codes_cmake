@@ -1,5 +1,6 @@
 #include <iostream>
 #include <utility>
+#include <format>
 #include "array.h"
 using std::cout, std::format;
 struct A{
