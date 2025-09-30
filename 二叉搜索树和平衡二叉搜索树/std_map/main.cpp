@@ -11,6 +11,8 @@ auto main() -> int {
         cout<<format("{}:{} ", fruit, value);
     }// 输出 apple:1 banana:3 orange:3 pear:2 %
     auto it {m.find("banana")};
-    cout<<it->second;
+    if(it != m.end()){
+        cout<<it->second;
+    }// 输出 3
     return 0;
 }
