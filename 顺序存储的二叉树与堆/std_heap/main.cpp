@@ -2,6 +2,7 @@
 #include <format>
 #include <vector>
 #include <ranges> // 堆操作相关函数的头文件
+#include <algorithm> // 使用GCC编译器同时需要引入这个头文件
 using std::cout, std::format;
 auto main() ->int {
     std::vector<int> heap{12,8,7,17,20,21};
