@@ -1,6 +1,7 @@
 #include <iostream>
 #include <format>
 #include <vector>
+#include <algorithm>
 #include <ranges>
 using std::cout, std::format;
 struct Data{

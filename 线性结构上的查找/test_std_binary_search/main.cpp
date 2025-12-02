@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 #include <ranges>
 auto main() -> int {
     std::vector<int> v{1, 2, 4, 5, 7, 9};
