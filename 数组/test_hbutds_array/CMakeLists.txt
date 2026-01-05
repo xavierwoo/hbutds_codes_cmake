@@ -10,7 +10,8 @@ FetchContent_Declare(
 
     # hbut_utilities的Git仓库地址
     GIT_REPOSITORY https://github.com/xavierwoo/hbutds_utilities.git
-    GIT_TAG v0.4.1  # 使用特定的版本
+    # GIT_TAG s0.3.1  # 测试简单版
+    GIT_TAG a0.3.1  # 测试高级版
 )
 FetchContent_MakeAvailable(hbutds_utilities)
 
