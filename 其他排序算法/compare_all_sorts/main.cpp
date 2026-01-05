@@ -19,7 +19,7 @@ void test_sort(SeqList& data, std::function<void(SeqList&)>sort_func){
             static_cast<double>(clock() - start_time)/CLOCKS_PER_SEC);
 }
 auto main() -> int {
-    SeqList data(40000);
+    SeqList data(70000);
     std::iota(data.begin(), data.end(), 1);
 
     cout<<"Testing selection sort...\t"<<flush;
