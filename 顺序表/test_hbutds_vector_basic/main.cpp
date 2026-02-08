@@ -1,8 +1,7 @@
 #include <iostream>
 #include <format>
-#include "vector.h"
+#include "vector.h" // hbutds::vector 所在头文件
 using std::cout, std::format;
-
 auto main() -> int {
     hbutds::vector<int> vec{1,2,3}; 
     cout<<format("Capacity = {}\n", vec.capacity()); // 输出3
