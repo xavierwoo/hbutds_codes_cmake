@@ -9,12 +9,10 @@ FetchContent_Declare(
     hbutds_utilities
 
     # hbut_utilities的Git仓库地址
-    # GIT_REPOSITORY https://github.com/xavierwoo/hbutds_utilities.git
-    GIT_REPOSITORY /Users/Xavier_1/Toys/data_structures/hbutds/hbutds_utilities
-    GIT_TAG a0.4.4     # 使用特定的版本
+    GIT_REPOSITORY https://github.com/xavierwoo/hbutds_utilities.git
+    GIT_TAG a0.4.5     # 使用特定的版本
 )
 FetchContent_MakeAvailable(hbutds_utilities)
-
 
 
 add_executable(test main.cpp)
