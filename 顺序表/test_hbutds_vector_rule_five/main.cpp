@@ -15,7 +15,7 @@ struct A{
     }
 };
 auto main() -> int {
-    hbutds::vector<A> vec0{A(), A(), A()}; // 执行三次拷贝构造函数
+    hbutds::vector<A> vec0{A(), A(), A()}; // 执行三次A拷贝构造函数
     hbutds::vector<A> vec1(std::move(vec0)); // 执行移动拷贝构造函数，没有输出
     hbutds::vector<A> vec2;
     vec2 = std::move(vec1); // 执行移动赋值操作，没有输出
