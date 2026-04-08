@@ -4,7 +4,7 @@
 using std::cout, std::format;
 auto main() ->int {
     std::stack<int> stk;
-    stk.push(1);
+    stk.push(1); // stack没有初始化列表构造函数
     stk.push(2);
     stk.push(3);
     while(! stk.empty()){
